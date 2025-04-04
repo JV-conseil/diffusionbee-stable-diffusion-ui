@@ -15,7 +15,9 @@ Create the conda environment and activate it
 
 ```sh
 cd "${HOME}/GitHub/JV-conseil/diffusionbee-stable-diffusion-ui/backends/stable_diffusion"
-conda deactivate
+conda env list
+conda update --all
+conda update -n base -c defaults conda
 conda create -n diffusion_bee_env python=3.12.9
 conda activate diffusion_bee_env
 ```

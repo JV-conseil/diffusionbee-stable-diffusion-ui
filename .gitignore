@@ -1,7 +1,6 @@
 build_test/
 optimized_stable_diffusion/
 
-
 HF_weights/
 outputs/
 
@@ -157,7 +156,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-
 # General
 .DS_Store
 .AppleDouble
@@ -185,6 +183,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
-
 pretrained_weights/
+.yarn

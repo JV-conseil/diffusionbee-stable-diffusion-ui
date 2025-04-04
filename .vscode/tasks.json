@@ -12,6 +12,7 @@
   "tasks": [
     {
       "label": "start",
+      // "command": "conda activate diffusion_bee_env && yarn --cwd ./electron_app run electron:serve",
       "command": "conda activate diffusion_bee_env && npm run --prefix ./electron_app electron:serve",
       "runOptions": {
         "runOn": "folderOpen"
