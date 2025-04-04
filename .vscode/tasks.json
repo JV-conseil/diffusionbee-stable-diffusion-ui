@@ -1,0 +1,22 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "type": "shell",
+  "presentation": {
+    "panel": "new",
+    "focus": true,
+    "revealProblems": "onProblem",
+  },
+  "problemMatcher": [],
+  "tasks": [
+    {
+      "label": "start",
+      "command": "conda activate diffusion_bee_env && npm run --prefix ./electron_app electron:serve",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "detail": "activate conda venv & serve electron app"
+    },
+  ]
+}
