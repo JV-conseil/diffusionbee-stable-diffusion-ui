@@ -14,10 +14,10 @@ git clone https://github.com/divamgupta/diffusionbee-stable-diffusion-ui
 Create the conda environment and activate it
 
 ```sh
-cd "${HOME}/GitHub/JV-conseil/diffusionbee-stable-diffusion-ui/backends/stable_diffusion"
-conda env list
-conda update --all
-conda update -n base -c defaults conda
+# cd "${HOME}/GitHub/JV-conseil/diffusionbee-stable-diffusion-ui/backends/stable_diffusion"
+# conda env list
+# conda update --all
+# conda update -n base -c defaults conda
 conda create -n diffusion_bee_env python=3.12.9
 conda activate diffusion_bee_env
 ```
@@ -26,13 +26,13 @@ Install the python packages
 
 ```sh
 which pip
-pip install -r ./requirements.txt
+pip install -r ./backends/stable_diffusion/requirements.txt
 ```
 
 Install the npm packages
 
 ```sh
-cd "${HOME}/GitHub/JV-conseil/diffusionbee-stable-diffusion-ui/electron_app"
+cd ./electron_app
 ```
 
 npm install
